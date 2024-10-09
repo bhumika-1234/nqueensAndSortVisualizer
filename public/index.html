@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Queens and Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>N-Queens and Sorting Visualizer</h1>
+
+    <div id="controls">
+        <button id="nQueensButton">N-Queens</button>
+        <button id="mergeSortButton">Merge Sort</button>
+        <button id="quickSortButton">Quick Sort</button>
+    </div>
+
+    <div id="nQueensControls" style="display: none;">
+        <h2>N-Queens</h2>
+        <input type="number" id="sizeInput" placeholder="Enter board size">
+        <button id="generateButton">Generate Board</button>
+        <button id="solveButton" style="display: none;">Solve</button>
+        <div id="board"></div>
+    </div>
+
+    <div id="arrayControls" style="display: none;">
+        <h2>Sorting Visualization</h2>
+        <button id="generateArray">Generate Array</button>
+        <button id="startMergeSort">Merge Sort</button>
+        <button id="startQuickSort">Quick Sort</button>
+        <div id="arrayContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

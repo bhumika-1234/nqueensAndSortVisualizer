@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: burlywood;
+}
+
+.queen {
+    /* border-radius: 50%; */
+    background-color: red; /* Queen's color */
+}
+
+.current {
+    background-color: blue; /* Highlight for current square */
+}
+
+.visited {
+    background-color: yellow; /* Highlight for conflict */
+}
+
+#arrayContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bar {
+    width: 20px;
+    margin: 0 2px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: lightgray;
+}
